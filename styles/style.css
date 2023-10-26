@@ -1,4 +1,25 @@
 div {
   background-color: bisque;
+
+  /* - padding take values in clockwise direction ( top right bottom left )  */
+  /* - padding is inner spacing */
+
   padding: 10px;
+  /* 10px for all 4 directions */
+
+  padding: 10px 20px;
+  /* each value set into 2 opposite directions
+    like: (10px for top/bottom) and (20px for left and right) */
+
+  padding: 10px 20px 15px;
+  /* (10px for only top) and (20px for left and right) and ( 15px only for bottom) */
+
+  padding: 10px 10px 10px 10px;
+  /* For all 4 directions clockwise. */
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  /* Each direction on it's own */
 }
