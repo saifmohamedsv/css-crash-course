@@ -1,16 +1,14 @@
-div {
+.main {
   background-color: bisque;
 
   padding: 10px;
-
-  /* Same as padding but this controls the space outside the element border in the 4 directions */
-  /* margin: 30px; */
-
-  /* Margins can be negative */
-  /* margin-top: -30px; */
-
   width: 70%;
-
-  /* Makes the element always centered horizontally */
   margin: auto;
+
+  border-width: 10px;
+  border-color: red green blue black;
+  border-style: solid dashed;
+
+  /* Shorthand */
+  border: 1px solid red;
 }
