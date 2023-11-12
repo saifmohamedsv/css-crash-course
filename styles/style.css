@@ -2,13 +2,18 @@
   background-color: bisque;
 
   padding: 10px;
-  width: 70%;
+
+  /* Border affect element width */
+  border: 10px solid red;
+
+  /* Outline don't affect element width */
+  outline: 10px solid black;
+
+  /* This property let the border and padding do not affect the element width
+    We can replace outline with it.
+  */
+  box-sizing: border-box;
+
+  width: 300px;
   margin: auto;
-
-  border-width: 10px;
-  border-color: red green blue black;
-  border-style: solid dashed;
-
-  /* Shorthand */
-  border: 1px solid red;
 }
