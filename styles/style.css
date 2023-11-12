@@ -1,19 +1,32 @@
-.main {
-  background-color: bisque;
+/* 
+  Inline
+    - Do not take full width
+    - Do not add line break
+    - Do not respect width, height 
+    - Respect padding on horizontal directions only
+    - Respect margin horizontally only 
 
+  Block
+    - Take full width if no width defined
+    - Add line break
+    - Respect padding, margin, width, height
+
+  Inline Block
+    - Allow elements before and after it
+    - Respect padding, margin, width, height
+    - 
+*/
+
+/* 
+div {
+  background-color: red;
   padding: 10px;
+  margin: 10px;
+} */
 
-  /* Border affect element width */
-  border: 10px solid red;
-
-  /* Outline don't affect element width */
-  outline: 10px solid black;
-
-  /* This property let the border and padding do not affect the element width
-    We can replace outline with it.
-  */
-  box-sizing: border-box;
-
-  width: 300px;
-  margin: auto;
+span {
+  background-color: aqua;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
 }
