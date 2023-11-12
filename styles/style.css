@@ -1,32 +1,8 @@
-/* 
-  Inline
-    - Do not take full width
-    - Do not add line break
-    - Do not respect width, height 
-    - Respect padding on horizontal directions only
-    - Respect margin horizontally only 
-
-  Block
-    - Take full width if no width defined
-    - Add line break
-    - Respect padding, margin, width, height
-
-  Inline Block
-    - Allow elements before and after it
-    - Respect padding, margin, width, height
-    - 
-*/
-
-/* 
 div {
+  margin: 10px 0;
   background-color: red;
-  padding: 10px;
-  margin: 10px;
-} */
+}
 
-span {
-  background-color: aqua;
-  padding: 10px;
-  margin: 10px;
-  display: inline-block;
+.first {
+  visibility: hidden;
 }
